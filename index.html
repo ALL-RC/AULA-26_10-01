@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CINE-DEV, meu catálogo de filmes e séries</title>
+</head>
+<hr>
+
+<body>
+    <header>
+        <h1> CINE-DEV catalog</h1>
+        <p> guarde aqui seus filmes fávoritos </p>
+    </header>
+    <main>
+        <section>
+        <form id="formulario-cadastro">
+            <div id="cadastro">
+                <label> COLOQUE AQUI O TITULO DO SEU FILME</label>
+                <input type="text" id="titulo" placeholder="insira o titulo do filme">
+            </div>
+            <label for="categoria"> Categorias:</label>
+                <select id="categoria">
+                    <div>
+                        <option value="ação">ação</option>
+                        <option value="ficção-cientifica"> ficção cientifica</option>
+                        <option value="animação"> animação</option>
+                        <option value="documentario"> documentario</option>
+                    </div>
+                </select>
+                
+            
+            <button type="submit">CADASTRAR TITULO</button>
+        </form>
+    </section>
+    <hr>
+    <h2>lista de filmes</h2>
+    
+    <section id="lista-filmes">
+        <article>
+            <h3> um filme minecraft</h3>
+            <p>categoria:ficção cientifica</p>
+            <p>status de vizualização: pendente</p>
+            <button type="button">marcar como assistido</button>
+            <button type="button">excluir</button>
+        </article>
+
+        <article>
+            <h3> Homen-aranha um novo dia</h3>
+            <p> categoria: ação</p>
+            <p>status de vizualização: assistido</p>
+            <button type="button">marcar como assistido</button>
+            <button type="button">excluir</button>
+        </article>
+
+    </section>
+
+    </main>
+    
+</body>
+</html>
