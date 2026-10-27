@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Aula de recaptulção 01 dia 26/10/2026 -->
 <html lang="pt-BR">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CINE-DEV, meu catálogo de filmes e séries</title>
@@ -20,6 +21,7 @@
                 <input type="text" id="titulo" placeholder="insira o titulo do filme">
             </div>
             <label for="categoria"> Categorias:</label>
+            <div>
                 <select id="categoria">
                     <div>
                         <option value="ação">ação</option>
@@ -28,7 +30,7 @@
                         <option value="documentario"> documentario</option>
                     </div>
                 </select>
-                
+            </div>    
             
             <button type="submit">CADASTRAR TITULO</button>
         </form>
@@ -41,16 +43,16 @@
             <h3> um filme minecraft</h3>
             <p>categoria:ficção cientifica</p>
             <p>status de vizualização: pendente</p>
-            <button type="button">marcar como assistido</button>
-            <button type="button">excluir</button>
+            <button type="button" class="assistido">marcar como assistido</button>
+            <button type="button" id="excluir">excluir</button>
         </article>
 
         <article>
             <h3> Homen-aranha um novo dia</h3>
             <p> categoria: ação</p>
             <p>status de vizualização: assistido</p>
-            <button type="button">marcar como assistido</button>
-            <button type="button">excluir</button>
+            <button type="button" class="assistido">marcar como assistido</button>
+            <button type="button" id="excluir">excluir</button>
         </article>
 
     </section>

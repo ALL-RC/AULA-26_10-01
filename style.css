@@ -1,0 +1,63 @@
+* { /* Aula de recapitulação 02 dia 27/10/2026 */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121212;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(203, 229, 252);
+}
+header{
+    padding: 20px;
+    background-color: rgb(207, 52, 98);
+    color: white ;
+    text-align: center;
+    font-size: medium;
+}
+form div{
+    padding: 5px;
+    margin: 20px;
+}
+input[type="text"], select{
+    padding: 20px;
+    width: 100% ;
+    border-radius: 25px;
+    font-size: large;
+}
+section{
+    margin: 25px;
+}
+button[type="submit"]{
+    background-color: lightgreen;
+    color: #221414;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+}
+article{
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+    border-left: 10px solid #6cabc8;
+    color: #ff5321;
+    background-color: #043247;
+    margin:15px;
+}
+.assistido{
+    background-color: #67944b;
+    color: #121212;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+#excluir
+{
+    background-color: #ff5321;
+    color: #121212;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
